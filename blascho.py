@@ -5,7 +5,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from scipy.stats import norm
 
-st.set_page_config(page_title="Options Pricing Model", layout="wide")
+st.set_page_config(page_title="Options Pricing Model", layout="wide", initial_sidebar_state="expanded")
 
 # Global font size adjustment
 st.markdown("""
